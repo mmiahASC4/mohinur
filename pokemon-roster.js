@@ -7,3 +7,4 @@ var data = [
     ["Mewtwo", "106", "90", "110", "false"],
     ["Houndoom", "75", "50","90", "false"]
 ]
+
