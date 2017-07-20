@@ -23,10 +23,20 @@ function setup(){
    rect(250,250,50,50),]]
    // column
    
+   var rand = Math.floor(Math.random()*4)
 var battleshipplacement = random(grid[random])
-console.log( battleshipplacement)
+          console.log( battleshipplacement)}
 
-function mouseCLicked() {
+function mouseClicked() {
+ 
+var grid;
+}
+
+
+
+
+
+
    if  ( battleshipplacement.mouseCLicked === battleshipplacement)
    {
 alert("You sunk the ship!")
@@ -36,5 +46,8 @@ alert("You sunk the ship!")
    }
 }
 
-
 }
+
+
+
+ 
