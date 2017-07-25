@@ -1,0 +1,27 @@
+body{
+    background:url("https://static1.squarespace.com/static/572140ccab48dea14a120a38/t/575d9c2cd51cd424cfa8d24d/1465752628427/Untitled-3.jpg?format=1500w");
+    color:white;
+    text-align: center;
+    font-size: 22px;
+    padding-top: 150px;
+}
+p{
+    color:white;
+    font-size: 26px;
+}
+input{
+    text-align: center;
+    padding: 10px;
+    opacity: .5;
+    margin: 20px;
+}
+input:hover{
+    opacity: 1;
+}
+#m{
+    font-style:bold;
+}
+    
+
+
+
