@@ -5,8 +5,6 @@ var alieny;
 var xIncrement = -2;
 var bulletx;
 var bullety;
-var a = 500
-var b = 500
 function setup(){
     createCanvas(windowWidth,windowHeight);
     //player coordinates
@@ -35,8 +33,6 @@ function draw(){
          }
         x+=10;
         bulletx += 10;
-
-        
     }
     //rectangle following x and y coordinates based on left and right arrow
     clear();
@@ -48,30 +44,11 @@ function draw(){
     //enemy alien
     fill(255,0,0);
     rect(alienx, alieny, 100, 100);
-    rect(300, 200, 100, 100);
-    rect(500, 200, 100, 100);
-    rect(100, 200, 100, 100);
-    rect(700, 200, 100, 100);
-    rect(900, 200, 100, 100);
-    rect(500, 80, 100, 100);
-    rect(300, 80, 100, 100);
-    rect(100, 80, 100, 100);
-    rect(700, 80, 100, 100);
-     //alien automatic movement from side to side, if reaches border, goes oopposite way
+    //alien automatic movement from side to side, if reaches border, goes oopposite way
     alienx += xIncrement;
     if (((alienx+100) >= width) || ((alienx)<=0)){
         xIncrement = xIncrement*(-1)
-
     }
-    fill(204, 102, 0)
-    rect(400, 500, 100, 100);
-     rect(200, 500, 100, 100);
-     rect(600, 500, 100, 100);
-     rect(800, 500, 100, 100);
-     rect(1000, 500, 100, 100);
-
-
-
 }
 function keyTyped(){
     if (keyCode == UP_ARROW){
@@ -80,9 +57,3 @@ function keyTyped(){
         }
     }
 }
-
-
-
-
-
-
